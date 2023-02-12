@@ -1,0 +1,12 @@
+name: branch-deploy
+
+on:
+  push:
+
+jobs:
+  deploy:
+    name: Test Job
+    runs-on: ubuntu-lates
+
+    steps:
+      - run: echo test job
