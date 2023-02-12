@@ -1,5 +1,5 @@
 locals {
-  dummy_var = "Something"
+  dummy_var = "Something else"
 }
 
 output "dummy_var" {
